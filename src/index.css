@@ -1,0 +1,25 @@
+body {
+  background-image: url(assets/background-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.clock-container {
+  backdrop-filter: blur(10px);
+  width: 100vw;
+}
+
+.clock {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 3px 3px 5px white;
+  text-align: center;
+}
